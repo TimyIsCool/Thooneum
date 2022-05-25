@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Thooneum Core
+Comment=Thooneum P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Thooneum peer-to-peer Netzwerk
+Comment[fr]=Thooneum, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Thooneum, eşten eşe kriptografik sanal para birimi
+Exec=thooneum-qt %u
+Terminal=false
+Type=Application
+Icon=thooneum128
+MimeType=x-scheme-handler/thooneum;
+Categories=Office;Finance;

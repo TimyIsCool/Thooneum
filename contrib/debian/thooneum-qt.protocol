@@ -1,0 +1,11 @@
+[Protocol]
+exec=thooneum-qt '%u'
+protocol=thooneum
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

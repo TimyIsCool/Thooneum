@@ -1,0 +1,6 @@
+usr/local/bin/thooneum-qt usr/bin
+share/pixmaps/thooneum32.xpm usr/share/pixmaps
+share/pixmaps/thooneum16.xpm usr/share/pixmaps
+share/pixmaps/thooneum128.png usr/share/pixmaps
+debian/thooneum-qt.desktop usr/share/applications
+debian/thooneum-qt.protocol usr/share/kde4/services/

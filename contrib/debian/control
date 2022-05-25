@@ -1,0 +1,70 @@
+Source: thooneum
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@thooneum.org>
+Uploaders: Holger Schinzel <holger@thooneum.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.47),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.47),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.47),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.47),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.47),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.47),
+ libminiupnpc8-dev | libminiupnpc-dev,
+ qt4-qmake, libqt4-dev,
+ qttools5-dev-tools, qttools5-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python,
+ libzmq3-dev
+Standards-Version: 3.9.2
+Homepage: https://www.thooneum.org/
+Vcs-Git: git://github.com/thooneum/thooneum.git
+Vcs-Browser: https://github.com/thooneum/thooneum
+
+Package: thooneumd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Thooneum is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Thooneum uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Thooneum Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, thooneumd, and the CLI tool
+ thooneum-cli to interact with the daemon.
+
+Package: thooneum-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Thooneum is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Thooneum uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Thooneum Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Thooneum-Qt, a GUI for Thooneum based on Qt.
+
+Package: thooneum-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Thooneum is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Thooneum uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Thooneum Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides thooneum-tx, a command-line transaction creation
+ tool which can be used without a thooneum daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

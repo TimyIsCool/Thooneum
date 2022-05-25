@@ -1,0 +1,22 @@
+[Unit]
+Description=Thooneum's distributed currency daemon
+After=network.target
+
+[Service]
+User=thooneumcore
+Group=thooneumcore
+
+Type=forking
+PIDFile=/var/lib/thooneumd/thooneumd.pid
+ExecStart=/usr/bin/thooneumd -daemon -pid=/var/lib/thooneumd/thooneumd.pid \
+-conf=/etc/thooneumcore/thooneum.conf -datadir=/var/lib/thooneumd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
