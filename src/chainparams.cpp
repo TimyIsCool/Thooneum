@@ -473,18 +473,9 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xfa2e1b220ff4629a6d0fe8c60704629ccd49730fb241631dd30e99a1e904c18f"));
         assert(genesis.hashMerkleRoot == uint256S("0x2816163a502fe4f081d90d167195ca2ad97efae76548519906143911888546e8"));
 
-        //vSeeds.emplace_back("seed00.thooneum.com", true);
-        //vSeeds.emplace_back("seed01.thooneum.com", true);
-        //vSeeds.emplace_back("seed02.thooneum.com", true);
-        //vSeeds.emplace_back("seed03.thooneum.com", true);
-        //vSeeds.emplace_back("seed04.thooneum.com", true);
-        //vSeeds.emplace_back("seed05.thooneum.com", true);
-        //vSeeds.emplace_back("seed06.thooneum.com", true);
-        //vSeeds.emplace_back("ger1.thooneum.com", true);
-        //vSeeds.emplace_back("ny1.thooneum.com", true);
-
         vSeeds.emplace_back("205.185.121.214", true);
 	vSeeds.emplace_back("23.88.121.14", true);
+
         // Thooneum addresses start with 't'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
         // Thooneum script addresses start with '7'
@@ -526,7 +517,7 @@ public:
         fMineBlocksOnDemand = false;
         fAllowMultipleAddressesFromGroup = false;
         fAllowMultiplePorts = false;
-        miningRequiresPeers = false;
+        miningRequiresPeers = true;
 
         nPoolMinParticipants = 3;
         nPoolMaxParticipants = 5;
