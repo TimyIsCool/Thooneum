@@ -1,9 +1,8 @@
 
 What is Thooneum?
 -------------
-
-The name Thooneum is a play on words, Thoon meaning soon. Our two main developers are Sully and timy_g (TG), Sully doing most the blockchain work and timy_g doing the art (ie Logo), Running the offical pool (http://rtm.timyg.org), running the explorer (To be updated once working), some blockchain work and more
-
+///
+///
 Introduction
 Thooneum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and THOON (Thooneum). 
 The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockchain projects. Ravencoin unfortunately suffered several serious breaches of its asset layer so that code base has been abandoned by us. We are currently working with and building on Dash code expending its capabilities significantly.
