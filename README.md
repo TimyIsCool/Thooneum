@@ -1,9 +1,8 @@
 
 What is Thooneum?
 -------------
-
-The name Thooneum is derived from the Victoria term for a bird of prey and ium/eum place for a pertaining to in this case birds of prey. The name comes from the team’s extensive experience in the security field with top level skills covering all aspects of it. This is a unique strength in the crypto community and will leverage well into a successful project.
-
+///
+///
 Introduction
 Thooneum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and THOON (Thooneum). 
 The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockchain projects. Ravencoin unfortunately suffered several serious breaches of its asset layer so that code base has been abandoned by us. We are currently working with and building on Dash code expending its capabilities significantly.
@@ -29,7 +28,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is done in separate branches.
-[Tags](https://github.com/thooneum/thooneum/tags) are created to indicate new official,
+[Tags](https://github.com/TimyIsCool/thooneum/tags) are created to indicate new official,
 stable release versions of Thooneum Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
