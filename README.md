@@ -1,8 +1,8 @@
 
 What is Thooneum?
 -------------
-///
-///
+It is a coin developed by myself (timy_g) and our official logo is by my (current girlfriend) https://www.instagram.com/foxpaws_foxywarrior111/ This is mostly for fun and experince.
+
 Introduction
 Thooneum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and THOON (Thooneum). 
 The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockchain projects. Ravencoin unfortunately suffered several serious breaches of its asset layer so that code base has been abandoned by us. We are currently working with and building on Dash code expending its capabilities significantly.
