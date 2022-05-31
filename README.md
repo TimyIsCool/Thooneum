@@ -7,6 +7,8 @@ Official resources
 -------------
 Official Pool: http://rtm.timyg.org/
 Official Explorer: http://rtm.timyg.org:6950/
+Downlaod: https://github.com/TimyIsCool/thooneum/releases
+
 
 Introduction
 Thooneum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and THOON (Thooneum). 
