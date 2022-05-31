@@ -5,9 +5,9 @@ It is a coin developed by myself (timy_g) and our official logo is by my (curren
 
 Official resources
 -------------
-Official Pool: http://rtm.timyg.org/
-Official Explorer: http://rtm.timyg.org:6950/
-Download: https://github.com/TimyIsCool/thooneum/releases
+## Official Pool: http://rtm.timyg.org/
+## Official Explorer: http://rtm.timyg.org:6950/
+## Download: https://github.com/TimyIsCool/thooneum/releases
 
 
 Introduction
