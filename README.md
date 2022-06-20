@@ -1,7 +1,7 @@
 
 What is Thooneum?
 -------------
-It is a coin developed by myself (timy_g) and our official logo is by https://www.instagram.com/foxpaws_foxywarrior111/ This is mostly for fun and experince. I made it to understand and learn how a blockchain works and is for learning. **Do not expect to make money from this. Any profits made are not intended. I am not liable for ANY losses that may occur.**
+It is a coin developed by myself (timy_g) and our official logo is by https://www.instagram.com/foxpaws_foxywarrior111/ This is mostly for fun and experience. I made it to understand and learn how a blockchain works and is for learning. **Do not expect to make money from this. Any profits made are not intended. I am not liable for ANY losses that may occur.**
 
 Official resources
 -------------
