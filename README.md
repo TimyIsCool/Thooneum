@@ -7,7 +7,8 @@ Official resources
 -------------
 ##### Official Pool: http://rtm.timyg.org/
 ##### Official Explorer: http://rtm.timyg.org:6950/
-##### Download: https://github.com/TimyIsCool/thooneum/releases
+##### Download: Download: https://github.com/TimyIsCool/thooneum/releases/releases
+##### Github: Download: https://github.com/TimyIsCool/thooneum/releases
 
 
 Introduction
