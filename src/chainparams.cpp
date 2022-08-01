@@ -518,7 +518,7 @@ public:
         fMineBlocksOnDemand = false;
         fAllowMultipleAddressesFromGroup = false;
         fAllowMultiplePorts = false;
-        miningRequiresPeers = true;
+        miningRequiresPeers = false;
 
         nPoolMinParticipants = 3;
         nPoolMaxParticipants = 5;
@@ -659,7 +659,7 @@ public:
         fMineBlocksOnDemand = false;
         fAllowMultipleAddressesFromGroup = false;
         fAllowMultiplePorts = true;
-        miningRequiresPeers = true;
+        miningRequiresPeers = false;
 
         nPoolMinParticipants = 3;
         nPoolMaxParticipants = 5;
