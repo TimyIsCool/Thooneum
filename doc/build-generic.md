@@ -13,7 +13,7 @@ Required build tools and environment
 Building the dependencies and Thooneum Core requires some essential build tools to be installed before. Please see
 [build-unix](build-unix.md), [build-osx](build-osx.md) and [build-windows](build-windows.md) for details.
 
-(May have to follow this to get v10 of gcc and g++)
+(May have to follow this https://ahelpme.com/linux/ubuntu/install-and-make-gnu-gcc-10-default-in-ubuntu-20-04-focal/ to get v10 of gcc and g++)
 
 Building dependencies
 ---------------------
