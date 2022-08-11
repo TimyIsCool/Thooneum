@@ -547,7 +547,7 @@ public:
 };
 
 /**
- * Testnet (v3)
+ * Testnet (v1)
  */
 class CTestNetParams : public CChainParams {
 public:
@@ -597,30 +597,28 @@ public:
         consensus.defaultAssumeValid = uint256S("0x0"); // 0
 
         pchMessageStart[0] = 0x74; //t
-        pchMessageStart[1] = 0x74; //t
-        pchMessageStart[2] = 0x74; //t
-        pchMessageStart[3] = 0x74; //t
-        nDefaultPort = 50506;
+        pchMessageStart[1] = 0x73; //t
+        pchMessageStart[2] = 0x21; //h
+        pchMessageStart[3] = 0x56; //o
+        pchMessageStart[4] = 0x11; //o
+        pchMessageStart[5] = 0x69; //n
+        nDefaultPort = 60607;
         nPruneAfterHeight = 1000;
-        //FindMainNetGenesisBlock(1653429742,  0x20001fff, "test");
-        genesis = CreateGenesisBlock(1653429742, 378, 0x20001fff, 4, 5000 * COIN);
+        //FindMainNetGenesisBlock(166853900,  0x20001fff, "test");
+        genesis = CreateGenesisBlock(166853900, 1130, 0x20001fff, 4, 5000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xfa2e1b220ff4629a6d0fe8c60704629ccd49730fb241631dd30e99a1e904c18f"));
-        assert(genesis.hashMerkleRoot == uint256S("0x2816163a502fe4f081d90d167195ca2ad97efae76548519906143911888546e8"));
+        //assert(consensus.hashGenesisBlock == uint256S("0xfa2e1b220ff4629a6d0fe8c60704629ccd49730fb241631dd30e99a1e904c18f"));
+        //assert(genesis.hashMerkleRoot == uint256S("0x2816163a502fe4f081d90d167195ca2ad97efae76548519906143911888546e8"));
 
         vFixedSeeds.clear();
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("47.151.7.226", true);
-        vSeeds.emplace_back("62.171.153.224", true);
-        vSeeds.emplace_back("98.38.235.195", true);
-        vSeeds.emplace_back("ger1.thooneum.com", true);
-        vSeeds.emplace_back("ny1.thooneum.com", true);
+        //vSeeds.emplace_back("47.151.7.226", true);
 
         // Testnet Thooneum addresses start with 'r'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,127);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,128);
         // Testnet Thooneum script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
@@ -642,7 +640,7 @@ public:
 
 		consensus.nCollaterals = SmartnodeCollaterals(
 			{
-				{20000, 20000 * COIN}, {40000, 40000 * COIN}, {INT_MAX, 60000 * COIN}
+				{5000, 2000 * COIN}, {20000, 4000 * COIN}, {INT_MAX, 69000 * COIN}
 			},
 			{
 				{INT_MAX, 20}
@@ -651,7 +649,7 @@ public:
 
         vector<FounderRewardStructure> rewardStructures = {  {INT_MAX, 5}// 5% founder/dev fee forever
                                                 										   };
-		consensus.nFounderPayment = FounderPayment(rewardStructures, 200, "reWytCJZGmetgAeahMULhexHJVpx7QbebS");
+		consensus.nFounderPayment = FounderPayment(rewardStructures, 200, "");
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
