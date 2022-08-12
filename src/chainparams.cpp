@@ -607,8 +607,8 @@ public:
         //FindMainNetGenesisBlock(166853900,  0x20001fff, "test");
         genesis = CreateGenesisBlock(166853900, 1130, 0x20001fff, 4, 5000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //assert(consensus.hashGenesisBlock == uint256S("0xfa2e1b220ff4629a6d0fe8c60704629ccd49730fb241631dd30e99a1e904c18f"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x2816163a502fe4f081d90d167195ca2ad97efae76548519906143911888546e8"));
+        assert(consensus.hashGenesisBlock == uint256S("596eb9e5617901c071223847e541e0741ee9c12787d1848c65860b45226a791b"));
+        assert(genesis.hashMerkleRoot == uint256S("2816163a502fe4f081d90d167195ca2ad97efae76548519906143911888546e8"));
 
         vFixedSeeds.clear();
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -617,7 +617,7 @@ public:
         // nodes with support for servicebits filtering should be at the top
         //vSeeds.emplace_back("47.151.7.226", true);
 
-        // Testnet Thooneum addresses start with 'r'
+        // Testnet Thooneum addresses start with 't'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,128);
         // Testnet Thooneum script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
