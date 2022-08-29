@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-      - develop
+      - develop-1
       - 'ft/*'
   pull_request:
     branches:
-      - develop
+      - develop-1
 env:
   COIN_NAME: thooneum
   BUILD_DIR: thooneum-build
@@ -31,8 +31,8 @@ jobs:
         with:
           path: build.properties
           property: 'release-version'
-      - name: Read build.properties key for develop
-        if: ${{ github.event_name == 'pull_request' || endsWith(github.ref, 'develop') || contains(github.ref, 'ft/')}}
+      - name: Read build.properties key for develop-1
+        if: ${{ github.event_name == 'pull_request' || endsWith(github.ref, 'develop-1') || contains(github.ref, 'ft/')}}
         id: snapshot-version
         uses: christian-draeger/read-properties@1.0.1
         with:
@@ -43,7 +43,7 @@ jobs:
         run: |
           echo "BUILD_VERSION=${{ steps.release-version.outputs.value }}" > version.txt
       - name: create snapshot version
-        if: ${{ github.event_name == 'pull_request' || endsWith(github.ref, 'develop') || contains(github.ref, 'ft/')}}
+        if: ${{ github.event_name == 'pull_request' || endsWith(github.ref, 'develop-1') || contains(github.ref, 'ft/')}}
         run: |
           echo "BUILD_VERSION=${{ steps.snapshot-version.outputs.value }}" > version.txt
       - name: Upload Artifact
