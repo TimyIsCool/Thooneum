@@ -6,6 +6,7 @@ on:
       - master
       - develop-1
       - 'ft/*'
+      - Master-backup-1
   pull_request:
     branches:
       - develop-1
