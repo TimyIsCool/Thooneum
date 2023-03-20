@@ -15,6 +15,11 @@ Run the following commands to install required packages:
 $ sudo apt-get install curl build-essential libtool autotools-dev automake pkg-config python3 bsdmainutils cmake m4
 ```
 
+##### Pi
+```bash
+$ sudo apt-get install curl build-essential libtool autotools-dev automake pkg-config python3 bsdmainutils cmake m4 libdb5.3++ libdb5.3++-dev
+```
+
 ##### Fedora:
 ```bash
 $ sudo dnf install gcc-c++ libtool make autoconf automake python3 cmake libstdc++-static patch
