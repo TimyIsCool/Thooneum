@@ -476,6 +476,9 @@ public:
         vSeeds.emplace_back("205.185.121.214", true);
 	vSeeds.emplace_back("23.88.121.14", true);
         vSeeds.emplace_back("23.88.43.166", true);
+        vSeeds.emplace_back("220.135.129.202", true);
+	vSeeds.emplace_back("211.22.182.178", true);
+        vSeeds.emplace_back("135.148.27.163", true);
 
         // Thooneum addresses start with 't'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
