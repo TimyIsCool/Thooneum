@@ -1,6 +1,6 @@
 Important Notice
 -------------
-Thooneum has been on inactive for a while now and it's just that im focusing on other stuff and Thooneum was always just a fun little thing I did a long time ago now. Im glad its held up and maybe one day I'll continue to work on it however there is currently no plans. Thank you all for the support, I greatly appreciate it. Let's hope 2024 is a great year for all of you
+Unfortunatly due to life taking unexpected turns this will be archived. I am sorry for not holding up to my word. Maybe one day I'll revisit this project. Feel free to fork it and mantain it
 
 
 What is Thooneum?
