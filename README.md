@@ -1,6 +1,6 @@
 Important Notice
 -------------
-Unfortunatly due to life taking unexpected turns this will be archived. I am sorry for not holding up to my word. Maybe one day I'll revisit this project. Feel free to fork it and mantain it
+Meh, felt like coding again
 
 
 What is Thooneum?
